@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap 5 CSS CDN Link -->
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/responsive.css">
+
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!--<main class="container-fluid p-0"> <!--here i've used expand-lg instead of conatiner-fluid-->
+        <!-- Navbar Section -->
+        <header class="header ">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">  
+            <div class="container">
+                <a href="#" class="navbar-brand">Dinesh Gautam</a>
+
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse1">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end justify" id="navbarCollapse1">
+                    <ul class="navbar-nav menu-navbar-nav">
+                      <li class="nav-items">
+                        <a href="#home" class="nav-link ">Home</a>
+                      </li>
+                      <li class="nav-items">
+                        <a href="#about" class="nav-link">About</a>
+                      </li>
+                      <li class="nav-items">
+                        <a href="#services" class="nav-link">Services</a>
+                      </li>
+                      <li class="nav-items">
+                        <a href="#contact" class="nav-link">Contact</a>
+                      </li>
+                      
+                      <li class="nav-items mt-3 mt-lg-0">
+                        <a class="main-btn " href="#contact">Hire Me</a>
+                      </li>
+                  </ul>
+                </div>
+            </div>
+        </nav>
+        </header>
+        <!-- End of Navbar -->
+      
+        <!-- Banner (Home) Section -->
+        <section id="home" class="banner">
+          <div class="container ">
+            <div class="row">
+              <div class="col-sm-12 text-center text-md-start">
+                <h6>WELCOME TO MY WORLD</h6>
+                <h1>I'm Dinesh<br><span>Full Stack Web Developer</span><br>based in India.</h1>
+                
+                <div class="mt-4">
+                  <a id="pdf" class="main-btn text-dark" href="files/Web _Developer_Resume_demo.pdf" download > Download CV</a>
+                </div>
+              </div>
+            </div>
+          </div>    
+          
+        </section>
+      
+        <!-- End OF Banner(Home) Section -->
+              <section id="about" class="about_wrapper">
+          <div class="container ">
+            <div class="row justify-content-between align-items-center">
+              <div class="col-lg-5 mb-4 mb-lg-0">
+                <img src="/images/dinesh1.jpg" class="img-fluid rounded-3" alt="about_me">
+              </div>
+              <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+                <div class="my-3 mb-lg-0">
+                  <span class="subtitle">About Details</span>
+                  <h2>About Me</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Unde iusto dolorum commodi iste enim voluptatum laborum nam quas 
+                    voluptatibus laudantium nihil iure perspiciatis.
+                  </p>
+                </div>
+                <div class="pt-4">
+                  <!-- nav and Tabs pills -->
+
+                  <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="true">Main Skill</button>
+                    </li>
+      
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill" data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education" aria-selected="false">Education</button>
+                    </li>
+                    
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-experience-tab" data-bs-toggle="pill" data-bs-target="#pills-experience" type="button" role="tab" aria-controls="pills-experience" aria-selected="false">Experience</button>
+                    </li>
+                  </ul>
+      
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
+                      <div class="single-progress ">
+                        <h6>HTML 5</h6>
+                        <div class="progress">
+                          <div class="progress-bar bg-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span class="label">80%</span>
+                      </div>
+      
+                      <div class="single-progress">
+                        <h6>CSS 3</h6>
+                        <div class="progress">
+                          <div class="progress-bar bg-dark" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span class="label">70%</span>
+                      </div>
+
+                      <div class="single-progress">
+                        <h6>Bootstrap 5</h6>
+                        <div class="progress">
+                          <div class="progress-bar bg-dark" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span class="label">55%</span>
+                      </div>
+
+                      <div class="single-progress">
+                        <h6>Javascript</h6>
+                        <div class="progress">
+                          <div class="progress-bar bg-dark" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span class="label">55%</span>
+                      </div>
+                    </div>
+                    
+                    <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
+                      <ul class="text-start ps-0">
+                        <li>
+                          <a href="#">Intern as Jr. Java Web Developer 
+                          <span>
+                            APRG Technology PVT ltd
+                          </span></a> 2017
+                        </li>
+      
+                        <li>
+                          <a href="#">M.Sc. In Computer Science 
+                          <span>
+                            Pratibha College
+                          </span></a> 2017
+                        </li>
+      
+                        <li>
+                          <a href="#">B.Sc. In Computer Science 
+                          <span>
+                            Indira College OF Commerce & Science
+                          </span></a> 2015
+                        </li>
+                      </ul>
+                    </div>
+                    
+                    <div class="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab">
+                      <ul class="text-start ps-0">
+                        <li>
+                          <a href="#">Jr. Java Developer <span>Maxgen Technology</span></a> 2018-2019
+                        </li>
+      
+                        <!-- <li>
+                          <a href="#">Java Developer <span>Maxgen Technology</span></a>2018-2019
+                        </li>
+      
+                        <li>
+                          <a href="#">Java Developer <span>Maxgen Technology</span></a>2018-2019
+                        </li> -->
+                      </ul>
+                    </div>
+                  </div>
+                  
+                  <!-- End of nav and Tabs pills -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- End OF Abut Section -->
+
+        <!-- Service Section -->
+      <section id="services" class="services_wrapper bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mg-4">
+                    <span class="subtitle">What I Can Do For You</span>
+                    <h2>Info About What I Do</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Optio aliquid magni, aliquam illo similique facere.
+                        <br class="d-none d-md-block">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, hic.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="/images/services/serv.svg" alt="service-1" class="img-fluid mb-4">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="/images/services/serv.svg" alt="servic-2" class="img-fluid mb-4">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="/images/services/serv.svg" alt="service-3" class="img-fluid mb-4">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="/images/services/serv.svg" alt="service-4" class="img-fluid mb-4">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="/images/services/serv.svg" alt="service-5" class="img-fluid mb-4">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="/images/services/serv.svg" alt="service-6" class="img-fluid mb-4">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- End OF Services Section -->
+      
+        <!-- Contact Form Section -->
+        <section id="contact" class="contact_wrapper">
+          <div class="container">
+            <div class="row justify-content-between align-items-center">
+              <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+                <h2 class="text-dark">Hire Me</h2>
+              <div class="row call_details mb-4">
+                <label class="col-sm-3 col-lg-4">Contact Me Directly:</label>
+                <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-mb-start">
+                  <a class="text-dark" href="javascript:void(0)">+91 (0)9762984063</a>
+                </div>
+      
+                <label class="col-sm-3 col-lg-4">Conatct Email :</label>
+                <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-mb-start">
+                  <a class="text-dark" href="mailto:dainyg4@gmail.com">dainyg4@gmail.com</a>
+                </div>
+              </div>
+      
+              <form>
+                <div class="mb-4">
+                  <input type="text" class="form-control" placeholder="Your Name .." autocomplete="off">
+                </div>
+      
+                <div class="mb-4">
+                  <input type="number" class="form-control" placeholder="Your Phone .." autocomplete="off">
+                </div>
+      
+                <div class="mb-4">
+                  <input type="email" class="form-control" placeholder="Your email .." autocomplete="off">
+                </div>
+      
+                <div class="mb-4">
+                  <textarea id="message" class="form-control" cols="40" rows="4" placeholder="write a message ..." 
+                  autocomplete="off"></textarea>
+                </div>
+      
+                <button type="submit" class="main-btn bg-secondary">Submit</button>
+              </form>
+            </div>
+            <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+              <img src="" class="img-fluid" alt="">
+            </div>
+          </div>
+          </div>
+        </section>
+      <!-- End Of Contact Form Section -->
+        
+      <!-- Footer section -->
+  <footer>
+    <div class="p-3 copyright">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-start">
+              <p class="my-0">Copyright © 2022 <b><a href="#" style="font-style: italic;">Dinesh Gautam</a></b> All Rights Reserved</p>
+          </div>
+          <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-end">
+              <p>Designed by <b><a href="#" target=" _blank" style="font-style: italic;">Dinesh</a></b>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+   
+<!-- Scroll Backt To Top --> 
+<div id="scrollUp" title="Scroll To Top">
+  <!-- <a href="#home"><span class="ti-arrow-up fs-4 text-dark" ></span></a> -->
+  <a href="#home"><span class="bi bi-arrow-up text-white"></span></a>
+</div>
+      <!-- </main> -->
+
+    <!-- Bootstrap 5 js CDN Link -->
+    <script src="/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script src="/logic.js"></script>
+</body>
+</html>
